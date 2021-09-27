@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#currenciesDIV{
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 100px;
+}
+#currenciesDIV > div{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 20px;
+    text-transform: uppercase;
+}
+#currenciesDIV > div:hover{
+    color: red;
+}
+@media only screen and (max-width: 600px) {
+    body {
+
+        background-color: lightblue;
+    }
+    #currenciesDIV{
+        grid-template-columns: 1fr;
+    }
+  }
